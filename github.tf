@@ -1,12 +1,12 @@
-provider github {
-    token = "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"
+provider "github" {
+  token = "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"
 
 }
 
 resource "github_repository" "usingterraform" {
-    name = "terraform-codes" 
-    description = "reference code for infra"
-    visibility = "public"
-    auto_init = true
-  
+  name        = "terraform-codes"
+  description = "reference code for infra"
+  visibility  = "public"
+  auto_init   = true
+
 }
